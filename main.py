@@ -40,4 +40,4 @@ print(receitas.find_one({'id': '232002'})) #Retorna o primeiro documento na coll
 
 receitas.delete_one({"name":"Torta de Limão"}) #Também pode ser utilizado delete_many() para atualizar multiplos itens
 print(receitas.find_one({'id': '232002'})) #Retorna o primeiro documento na collection
-print('fim')
+print('fim') 
